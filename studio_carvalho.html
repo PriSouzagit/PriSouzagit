@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDIO CARVALHO</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -18,23 +18,26 @@
     <link rel="stylesheet" type="text/css" href="src/style.css">
     <script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
     <script src="main.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="PI 2/img/logo_favicon.jpg">
 </head>
 
 <body>
     <div class="container-fluid">
 
         <header>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top H5">
-                <a class="navbar-brand" href="#">Studio Carvalho - Thamires e Thais</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <a class="navbar-brand" href="#">Studio Carvalho (Thamires & Thais)</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav me-auto mb-1 mb-lg-1">
-                        <li><a class="nav-link active" href="#">HOME<span class="sr-only">(current)</span></a></li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li><a class="nav-link active" aria-current="page" href="#">HOME<span
+                                    class="sr-only">(current)</span></a></li>
                         <li><a class="nav-link" href="#quem-somos">QUEM SOMOS</a></li>
-                        <li><a class="nav-link" data-toggle="modal" data-target="#apoie-modal" href="#">AGENDA</a></li>
+                        <li><a class="nav-link" data-toggle="modal" data-target="#apoie-modal" href="#">AGENDAR</a></li>
                         <li><a class="nav-link" href="#acessibilidade">ACESSIBILIDADE</a></li>
                     </ul>
                 </div>
@@ -53,22 +56,22 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="PI 2/site/alongamentodecilio.studioc.jpg"
+                            <img src="alongamentodecilio.studioc.jpg"
                                 class="border rounded mx-auto d-block w-10 col-4 imagem-carrossel"
                                 alt="Imagem responsiva">
                         </div>
                         <div class="carousel-item">
-                            <img src="PI 2/site/alongamentoemgel.studioc.jpg"
+                            <img src="alongamentoemgel.studioc.jpg"
                                 class="border rounded mx-auto d-block w-10 col-4 imagem-carrossel"
                                 alt="Imagem responsiva">
                         </div>
                         <div class="carousel-item">
-                            <img src="PI 2/site/manicure.studioc.jpg"
+                            <img src="manicure.studioc.jpg"
                                 class="border rounded mx-auto rounded d-block w-10 col-4 imagem-carrossel"
                                 alt="Imagem responsiva">
                         </div>
                         <div class="carousel-item">
-                            <img src="PI 2/site/sobrancelha.studioc.jpg"
+                            <img src="sobrancelha.studioc.jpg"
                                 class="border rounded mx-auto rounded d-block w-10 col-4 imagem-carrossel"
                                 alt="Imagem responsiva">
                         </div>
@@ -97,7 +100,7 @@
     <section class="container-fluid" id="adocoes">
         <div class="row justify-content-center">
             <article class="card borda-cor-especial card-largura p-2 m-1 col-4 col-md-2">
-                <img class="card-img-top card-posicao-imagem w-75" src="PI 2/site/alongamentodecilio.studioc.jpg">
+                <img class="card-img-top card-posicao-imagem w-75" src="alongamentodecilio.studioc.jpg">
                 <div class="card-body">
                     <h5 class="card-title">Alongamento de Cilios</h5>
                     <p class="card-text"> Cilios fio-a-fio com ...</p>
@@ -106,7 +109,7 @@
             </article>
 
             <article class="card borda-cor-especial card-largura p-2 m-1 col-6 col-md-2">
-                <img class="card-img-top card-posicao-imagem w-100" src="PI 2/site/alongamentoemgel.studioc.jpg">
+                <img class="card-img-top card-posicao-imagem w-100" src="alongamentoemgel.studioc.jpg">
                 <div class="card-body">
                     <h5 class="card-title">Alongamento de unhas</h5>
                     <p class="card-text">Técnicas de alongamento de unhas com gel, fibra de vidro, manutenção...</p>
@@ -115,7 +118,7 @@
             </article>
 
             <article class="card borda-cor-especial card-largura p-2 m-1 col-4 col-md-2">
-                <img class="card-img-top card-posicao-imagem w-75" src="PI 2/site/manicure.studioc.jpg">
+                <img class="card-img-top card-posicao-imagem w-75" src="manicure.studioc.jpg">
                 <div class="card-body">
                     <h5 class="card-title">Manicure e pedicure</h5>
                     <p class="card-text">Cutilagem e esmaltaria nos pés e mãos</p>
@@ -142,7 +145,7 @@
                 <div class="col-12 container-video">
                     <div class="col">
                         <div class="embed">
-                            <iframe width="560" height="315" src="PI 2/site/Vídeo do WhatsApp de unha.mp4"
+                            <iframe width="560" height="315" src="Vídeo do WhatsApp de unha.mp4"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
