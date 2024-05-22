@@ -391,8 +391,7 @@
 
 /*** Appointment  Start ***/
 .appointment {
-    background: linear-gradient(rgba(85, 51, 51, 0.5), rgba(218, 97, 197, 0.5)), url(../img/logo.favicon2..jpg
- background-position: center center;
+    background: linear-gradient(rgba(85, 51, 51, 0.5), rgba(218, 97, 197, 0.5)), url(../img/logo.favicon2..jpg) background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
